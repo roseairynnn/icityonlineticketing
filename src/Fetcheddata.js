@@ -9,9 +9,9 @@ function Fetcheddata(props) {
             {data.services.map((d) => {
                 return (
                     <>
-                    <div className='TerminalID' key={d.TerminalID}>
+                    <div className='TrxID' key={d.TrxID}>
                         <div className='PackageName'>
-                            <h2>{d.TerminalID}</h2>
+                            <h2>{d.TrxID}</h2>
                             <p>{d.PackageName}</p>
                         </div>
                         <div className='ImgUrl'>
